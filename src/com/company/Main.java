@@ -22,7 +22,7 @@ public class Main {
         }
         System.out.println(Apple.cost(apple));
         smallApples(apple);
-        sortByWeihht(apple);
+        sortByWeight(apple);
         sortByCost(apple);
         sortBySort(apple);
     }
@@ -38,7 +38,7 @@ public class Main {
     }
 
     // Method sortByWeight use Selection sort
-    public static Apple[] sortByWeihht(Apple[] apple) {
+    public static Apple[] sortByWeight(Apple[] apple) {
         for (int i = 0; i < apple.length; i++) {
             Apple min = apple[i];
             int minIndex = i;
